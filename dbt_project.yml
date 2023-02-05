@@ -33,4 +33,4 @@ clean-targets:         # directories to be removed by `dbt clean`
 # using the `{{ config(...) }}` macro.
 models:
   modern_data_stack_demo:
-    materialized: view
+    materialized: table
