@@ -8,8 +8,8 @@ bq_profile:  # your profile name from dbt_project.yml
       project: decent-slice-363510  # name of the project in BigQuery
       dataset: data_analysis  # your dataset for development (usually your name)
       threads: 4
-      keyfile: /secrets/dbt-service-keyfile
-      #keyfile: /Users/divinee/Downloads/keyfiles/decent-slice-bq-write.json
+      #keyfile: /secrets/dbt-service-keyfile #use here
+      keyfile: /Users/divinee/Downloads/keyfiles/decent-slice-bq-write.json
       timeout_seconds: 300
       priority: interactive
       retries: 1
@@ -20,8 +20,8 @@ bq_profile:  # your profile name from dbt_project.yml
       project: decent-slice-363510  # name of the project in BigQuery
       dataset: all_public  # your dataset for production
       threads: 4
-      keyfile: /secrets/dbt-service-keyfile
-      #keyfile: /Users/divinee/Downloads/keyfiles/decent-slice-bq-write.json
+      #keyfile: /secrets/dbt-service-keyfile
+      keyfile: /Users/divinee/Downloads/keyfiles/decent-slice-bq-write.json
       timeout_seconds: 300
       priority: interactive
       retries: 1
